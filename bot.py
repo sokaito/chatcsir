@@ -36,5 +36,4 @@ def send_to_telegram(message):
     requests.post(url, data=data)
 
 if __name__ == "__main__":
-    mcqs = generate_mcqs()
-    send_to_telegram(mcqs)
+    send_to_telegram("Test message from GitHub ✅")
